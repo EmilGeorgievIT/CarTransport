@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="bg">
+   <head>
+      <!-- Основни -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Мета тагове за мобилни -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- Мета тагове за сайта -->
+      <title>Андрей</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- CSS стилове -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!-- Responsive стилове -->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- Фавикон -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- CSS за персонализиран скрол -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Допълнителни стилове за по-стари версии на IE-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <!-- Стилове за Owl Carousel --> 
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+   </head>
+   <body>
+      <!-- Начало на секцията за хедъра -->
+      <div class="header_section">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="logo" href="index.html"><img width="50px" src="images/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="index.html">Начало</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="about.html">За нас</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="services.html">Услуги</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="contact.html">Контакт</a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </div>
+      <!-- Край на секцията за хедъра -->
+      <!-- Начало на секцията за банера -->
+      <div class="banner_section layout_padding">
+         <div id="my_slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container">
+                     <div class="banner_main">
+                        <h1 class="banner_taital">Добре дошли в Транспортната услуга на Андрей</h1>
+                        <div class="read_bt"><a href="#">Прочети повече</a></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="banner_main">
+                        <h1 class="banner_taital">Добре дошли в Транспортната услуга на Андрей</h1>
+                        <div class="read_bt"><a href="#">Прочети повече</a></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="banner_main">
+                        <h1 class="banner_taital">Добре дошли в Транспортната услуга на Андрей</h1>
+                        <div class="read_bt"><a href="#">Прочети повече</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="prev">
+            <i class=""><img src="images/left-arrow.png"></i>
+            </a>
+            <a class="carousel-control-next" href="#my_slider" role="button" data-slide="next">
+            <i class=""><img src="images/right-arrow.png"></i>
+            </a>
+         </div>
+      </div>
+      <!-- Край на секцията за банера -->
+      <!-- Начало на секцията за формата -->
+      <div class="booking_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12 col-lg-8">
+                  <div class="book_main">
+                     <h1 class="book_text">Резервирайте Вашия превозно средство</h1>
+                     <div class="location_main">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <h2 class="location_text">Локация</h2>
+                              <input type="text" class="where_text" placeholder="Къде" name="Къде">
+                           </div>
+                           <div class="col-md-6">
+                              <h2 class="location_text">До</h2>
+                              <div class="form-group">
+                                 <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Сложете артикула си</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                 </select>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="location_main">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <h2 class="location_text">Дата</h2>
+                              <input id="datepicker" width="100%" type="text" placeholder="01/12/2020" />
+                           </div>
+                           <div class="col-md-6">
+                              <h2 class="location_text">Превозно средство</h2>
+                              <div class="dropdown show">
+                                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Изберете камион</button>
+                                 <div class="dropdown-menu show" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Действие</a>
+                                    <a class="dropdown-item" href="#">Друго действие</a>
+                                    <a class="dropdown-item" href="#">Нещо друго тук</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="submit_bt"><a href="#">Изпрати</a></div>
+                  </div>
+               </div>
+               <div class="col-sm-12 col-lg-4">
+                  <div><img src="images/img-1.png" class="image_1"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Край на секцията за формата -->
+      <!-- Начало на секцията за услугите -->
+      <div class="services_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <h1 class="services_taital">Нашите услуги</h1>
+                  <p class="services_text">Ние предлагаме надеждни транспортни услуги, които ви осигуряват бързо и сигурно доставяне на вашите стоки до желаната дестинация. Нашите експерти се грижат за всяко детайлно планиране и изпълнение на транспортните процеси, за да гарантираме, че вашите стоки достигат целта си навреме и в перфектно състояние.</p>
+                  <div class="readmore_bt"><a href="#">Прочети повече</a></div>
+               </div>
+               <div class="col-md-6">
+                  <div class="box_main active">
+                     <h1 class="cargo_text">Товари</h1>
+                  </div>
+                  <div class="boxes_main">
+                     <div class="box_main_2">
+                        <h1 class="cargo_text">Транспорт</h1>
+                     </div>
+                     <div class="box_main_3">
+                        <h1 class="cargo_text">Складиране</h1>
+                     </div>
+                  </div>
+                  <div class="box_main_4">
+                     <h1 class="cargo_text">Наземен транспорт</h1>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Край на секцията за услугите -->
+      <!-- Начало на секцията за блога -->
+      <div class="blog_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <h1 class="blog_taital">Нашето превозно средство</h1>
+                  <p class="services_text">
+                     Всички наши превозни средства се подлагат на строги проверки и редовна поддръжка, което гарантира, че са в перфектно работно състояние. Ние се грижим за безопасността на вашите товари и защитата на околната среда, като осигуряваме, че нашите превозни средства са винаги в най-добро състояние. Нашите водачи са опитни професионалисти с висока квалификация и умения, които са готови да осигурят гладко и безопасно превозно решение за вас. Те се отличават с отлични умения за управление на превозни средства и дългогодишен опит в индустрията.
+                  </p>
+               </div>
+               <div class="col-md-6">
+                  <div id="main_slider" class="carousel slide" data-ride="carousel">
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="image_2"><img src="images/img-2.png"></div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="image_2"><img src="images/img-2.png"></div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="image_2"><img src="images/img-2.png"></div>
+                        </div>
+                     </div>
+                     <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+                     <i class="fa fa-angle-left"></i>
+                     </a>
+                     <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+                     <i class="fa fa-angle-right"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Край на секцията за блога -->
+      <!-- Начало на секцията за избора -->
+      <div class="chose_section layout_padding">
+         <div class="container">
+            <h1 class="blog_taital">Нашето превозно средство</h1>
+            <div class="chose_section_2 layout_padding">
+               <div class="row">
+                  <div class="col-sm-3">
+                     <div class="icon_1"><img src="images/icon-1.png"></div>
+                     <h2 class="price_text">1000+</h2>
+                     <h2 class="years_text">Години транспорт</h2>
+                  </div>
+                  <div class="col-sm-3">
+                     <div class="icon_1"><img src="images/icon-2.png"></div>
+                     <h2 class="price_text">20000+</h2>
+                     <h2 class="years_text">Доставени проекти</h2>
+                  </div>
+                  <div class="col-sm-3">
+                     <div class="icon_1"><img src="images/icon-3.png"></div>
+                     <h2 class="price_text">10000+</h2>
+                     <h2 class="years_text">Доволни клиенти</h2>
+                  </div>
+                  <div class="col-sm-3">
+                     <div class="icon_1"><img src="images/icon-4.png"></div>
+                     <h2 class="price_text">1500+</h2>
+                     <h2 class="years_text">Евтини цени</h2>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Край на секцията за клиентите -->
+      <!-- Начало на секцията за контакт -->
+      <div class="contact_section layout_padding">
+         <div class="container">
+            <h1 class="contact_taital">Свържете се с нас</h1>
+            <div class="contact_section_2">
+               <div class="row">
+                  <div class="col-md-8">
+                     <div class="map_main">
+                        <div class="map-responsive">
+                           <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="600" height="420" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="email_text">
+                        <div class="form-group">
+                           <input type="text" class="email-bt" placeholder="Име" name="Email">
+                        </div>
+                        <div class="form-group">
+                           <input type="text" class="email-bt" placeholder="Телефонен номер" name="Email">
+                        </div>
+                        <div class="form-group">
+                           <input type="text" class="email-bt" placeholder="Имейл" name="Email">
+                        </div>
+                        <div class="form-group">
+                           <textarea class="massage-bt" placeholder="Съобщение" rows="5" id="comment" name="Massage"></textarea>
+                        </div>
+                        <div class="send_btn"><a href="#">Изпрати</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Край на секцията за контакт -->
+      <!-- Начало на секцията за футъра -->
+      <div class="footer_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-3 col-sm-6">
+                  <h3 class="Андрей_text">Андрей Транспорт</h3>
+                  <p class="footer_text">
+                     "Нуждаете се от транспорт на автомобил? Ние сме тук, за да ви помогнем! Независимо дали пренасяте колата си до нов град, я изнасяте на изложба или просто се нуждаете от преместване, ние осигуряваме надеждни услуги за транспорт на автомобили. С нас можете да бъдете спокойни, че вашият автомобил ще бъде доставен безопасно и навреме до желаната дестинация. Свържете се с нас днес, за да започнем!"</p>
+                  <div class="social_icon">
+                     <ul>
+                        <li><a href="#"><img src="images/fb-icon.png"></a></li>
+                        <li><a href="#"><img src="images/twitter-icon.png"></a></li>
+                        <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
+                        <li><a href="#"><img src="images/instagram-icon.png"></a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <h3 class="Андрей_text">Адрес</h3>
+                  <p class="footer_text">Монтана</p>
+                  <div class="number_text"><a href="#">+359 87988 2436</a></div>
+                  <div class="number_text"><a href="#">demo@gmail.com</a></div>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <h3 class="Андрей_text">Линкове</h3>
+                  <div class="footer_menu">
+                     <ul>
+                        <li><a href="index.html">Начало</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="contact.html">Контакти</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Край на секцията за футъра -->
+      <!-- JS файлове -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+   </body>
+</html>
